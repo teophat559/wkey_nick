@@ -1,0 +1,76 @@
+{
+  "short_name": "ContestApp",
+  "name": "ContestApp - Nền tảng Cuộc thi Việt Nam",
+  "description": "Tham gia và theo dõi các cuộc thi hấp dẫn nhất Việt Nam",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": [
+    "entertainment",
+    "social"
+  ],
+  "shortcuts": [
+    {
+      "name": "Cuộc thi nổi bật",
+      "short_name": "Cuộc thi",
+      "description": "Xem các cuộc thi nổi bật",
+      "url": "/contests",
+      "icons": [
+        {
+          "src": "icon-contest-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Thí sinh tiêu biểu",
+      "short_name": "Thí sinh",
+      "description": "Xem thí sinh tiêu biểu",
+      "url": "/contestants",
+      "icons": [
+        {
+          "src": "icon-contestant-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Tin tức",
+      "short_name": "News",
+      "description": "Đọc tin tức mới nhất",
+      "url": "/news",
+      "icons": [
+        {
+          "src": "icon-news-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": []
+}
